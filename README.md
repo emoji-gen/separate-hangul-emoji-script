@@ -1,4 +1,4 @@
-## separate-ko-scripts
+## separate-hangul-emoji-script
 
 The utility script to separate hangul from mixed locales database.
 
