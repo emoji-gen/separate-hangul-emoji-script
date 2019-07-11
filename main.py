@@ -33,7 +33,7 @@ async def main():
             is_ko = ko_matched and not ja_matched \
                 and not contains_brakets and emoji['font'] == cjk_font
             if is_ko:
-                print('UPDATE `emoji` SET `locale` = "ko" WHERE `id` = {} LIMIT 1;'.
+                print('UPDATE `emoji_log` SET `locale` = "ko" WHERE `id` = {} LIMIT 1;'.
                         format(emoji['id']))
 
         for emoji in emojis:
